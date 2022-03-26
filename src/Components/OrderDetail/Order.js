@@ -6,7 +6,8 @@ const Order = (props) => {
         <div>
             <div className=" mt-3 d-flex order  ">
             <img width="40px" className="rounded-circle shadow" src={img} alt="" />
-          
+            <h5><small className="m-3">{name}</small></h5>
+            <p>Price: {price}</p>
             </div>
             
         </div>
