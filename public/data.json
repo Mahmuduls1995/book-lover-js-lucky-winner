@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "name": "JavaScript Absolute Beginers",
+      "img": "https://www.pearsonhighered.com/assets/bigcovers/0/1/3/6/013650289X.jpg",
+      "price": "540"
+    },
+    {
+      "id": 2,
+      "name": "Eluquent JavaScript",
+      "img": "https://miro.medium.com/max/1400/1*zBRkcBbsjWzcPjtcxqhb3Q.jpeg",
+      "price": "140"
+    },
+    {
+      "id": 3,
+      "name": "Clean Code in JavaScript",
+      "img": "https://www.freepdf-books.com/doc-images/40138.png",
+      "price": "240"
+    },
+    {
+      "id": 4,
+      "name": "Js Good Parts",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLhxtOu19K4zWfZRZ_FjZBBcw_s4MUcK8zTA7KX5AlN3xMXk-ODl7WSocjrugMLv44ZbE&usqp=CAU",
+      "price": "340"
+    },
+    {
+      "id": 5,
+      "name": "Js The Definite Guide",
+      "img": "https://www.wowebook.org/wp-content/uploads/2020/05/JavaScript-The-Definitive-Guide-7th-Edition.webp",
+      "price": "440"
+    },
+    {
+      "id": 6,
+      "name": "Professional JavaScript",
+      "img": "https://www.oreilly.com/library/view/professional-javascript/9781838820213/image/B14586_Lowres.png",
+      "price": "540"
+    },
+    {
+      "id": 7,
+      "name": "Machine Learning in javascript",
+      "img": "https://static.packt-cdn.com/products/9781788998246/cover/smaller",
+      "price": "640"
+    },
+    {
+      "id": 8,
+      "name": "Backend JavaScript",
+      "img": "https://m.media-amazon.com/images/I/51UVXSTtfwL.jpg",
+      "price": "740"
+    },
+    {
+      "id": 9,
+      "name": "JS Programming",
+      "img": "https://m.media-amazon.com/images/I/51uj6jNCE2L.jpg",
+      "price": "840"
+    }
+
+]
