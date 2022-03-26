@@ -13,7 +13,28 @@ const Card = () => {
             .then(data => setProducts(data))
     }, []);
 
-  
+    const handleAddToCart = (product) => {
+        const newCart = [...cart, product];
+        console.log(newCart);
+
+        setCart(newCart);
+    }
+
+    const handleRandomCartSelection = () => {
+        const newCart = [...cart];
+        let randomItem = newCart[Math.floor(Math.random() * newCart.length)];
+        const { name, img, price } = randomItem;
+
+        alert(name);
+    }
+
+    // Choose Again Button Function in Order cart
+    const handleClearCart = () => {
+
+        const newCart = [];
+        setCart(newCart);
+    }
+
 
 
     return (
@@ -27,7 +48,21 @@ const Card = () => {
                     ></Product>)
                 }
             </div>
-          
+            <div className="cart-container  col-md-12">
+                <h4 className="bg-light p-3">Selected Book</h4>
+
+                {
+
+                    cart.map((item) => (
+
+                        <Order book={item}></Order>
+                    ))
+                }
+
+                <button onClick={() => handleRandomCartSelection()} className="btn btn-secondary p-2 m-4 ">CHOOSE 1 FOR ME</button>
+
+                <button onClick={() => handleClearCart()} className="btn btn-secondary p-2 m-4 ">Choose Again</button>
+            </div>
         </div>
 
     );
