@@ -5,6 +5,8 @@ import './Product.css'
 const Product = ({product, handleAddToCart}) => {
     const { name, img, price } = product;
     return (
+                  
+                // Book Card create
 
         <div className='product'>
             <img src={img} alt=""></img>

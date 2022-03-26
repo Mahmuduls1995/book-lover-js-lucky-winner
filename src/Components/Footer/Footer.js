@@ -2,8 +2,11 @@ import React from 'react';
 import './Footer.css'
 const Footer = () => {
 
-    return (
+    
+                            // Question and Answer Part
 
+
+    return (
         <div>
             <h2 class="bg-gradient text-center text-info my-4">Question and Answer</h2>
             <div class="container mx-auto my-4">
@@ -39,7 +42,6 @@ const Footer = () => {
                                 useState returns an array with two items:
                                 (1) A fresh copy of the information stored in your shelf space. We'll receive a fresh copy every time React updates the view.
                                 (2)A function which let's us overwrite the information stored in your shelf space. To permanently change the information, which we receive a copy of in 1, we have to call this function with the new information.
-
                             </div>
                         </div>
                     </div>

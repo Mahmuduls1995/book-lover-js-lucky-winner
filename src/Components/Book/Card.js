@@ -13,12 +13,16 @@ const Card = () => {
             .then(data => setProducts(data))
     }, []);
 
+                //  Order Function Create
+
     const handleAddToCart = (product) => {
         const newCart = [...cart, product];
         console.log(newCart);
 
         setCart(newCart);
     }
+
+    // Random book user create function
 
     const handleRandomCartSelection = () => {
         const newCart = [...cart];
