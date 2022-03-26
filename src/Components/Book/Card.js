@@ -23,8 +23,7 @@ const Card = () => {
     const handleRandomCartSelection = () => {
         const newCart = [...cart];
         let randomItem = newCart[Math.floor(Math.random() * newCart.length)];
-        const { name, img, price } = randomItem;
-
+        const { name } = randomItem;
         alert(name);
     }
 

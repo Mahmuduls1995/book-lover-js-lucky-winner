@@ -1,0 +1,9 @@
+.order{
+    border: 2px solid rgb(34, 34, 32);
+    box-shadow: 2px 2px 2px 1px rgba(236, 233, 233, 0.972);
+ 
+    padding: 3px;
+    background-color: #5f27cd;
+    color: white;
+    
+}
